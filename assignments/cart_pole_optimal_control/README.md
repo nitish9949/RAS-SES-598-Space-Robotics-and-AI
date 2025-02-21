@@ -265,3 +265,15 @@ Students should analyze:
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) 
+
+Approach Taken to Arrive at Final Parameters
+1.	Initial parameters were set as Q = [1.0, 1.0, 10.0, 10.0].
+2.	Increasing x to 2 made the cart move rapidly, causing the pole to fall.
+3.	Resetting x to 1 and increasing x_dot to 2 allowed longer balance but with rapid cart movement.
+4.	Increasing x_dot to 3 minimized cart movement and maintained longer balance.
+5.	Tuning the angular parameters started with theta set to 5, which caused cart movement and pole fall.
+6.	Increasing theta to 15 achieved balance but introduced a wiggly motion.
+7.	Raising theta_dot to 20 caused the pole to fall instantly.
+8.	Reducing theta to 5 and theta_dot to 10 provided better balance with slight cart movement.
+9.	Finally, setting theta to 1 and theta_dot to 3 resulted in optimal balance with minimal movement.
+
